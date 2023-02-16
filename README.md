@@ -1,3 +1,11 @@
+# Changes
+This is version where the python modules are installed from the requirements.txt.
+
+## Python scripts included
+The two python scripts are made for pulling data from different sources. More details from:
+
+https://threathunt.blog/malware-statistics-to-elk
+
 # docker-python-cronjob
 Run python script as a cron job using Docker
 ## Build Docker
