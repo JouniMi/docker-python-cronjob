@@ -4,6 +4,7 @@ WORKDIR /app
 COPY crontab /etc/cron.d/crontab
 COPY mw_bazaar.py mw_bazaar.py
 COPY hybrid.py hybrid.py
+COPY triage.py triage.py
 RUN chmod 0644 /etc/cron.d/crontab
 RUN /usr/bin/crontab /etc/cron.d/crontab
 COPY requirements.txt requirements.txt
